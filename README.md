@@ -1,8 +1,37 @@
-# create-svelte
+# This is my portfolio site built in Svelte
+
+This is an updated version of my portfolio site that is built with Svelte. The previous version was built using Jekyll.
+
+## Base Requirements
+
+Navigation
+* Homepage
+* About
+* Portfolio
+* Contact
+
+## UX Requirements
+
+* Responsive
+* 508 Accessible
+* Optimize for SEO
+* Optimize for performance
+
+## Experience Target
+
+* Interactive Animations
+* SVGs
+
+## Todos
+
+## Future Enhancements
+
+
+## create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
+### Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
 
@@ -14,7 +43,7 @@ npm create svelte@latest
 npm create svelte@latest my-app
 ```
 
-## Developing
+### Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
@@ -25,7 +54,7 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+### Building
 
 To create a production version of your app:
 
