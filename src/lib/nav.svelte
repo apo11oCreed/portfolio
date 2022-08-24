@@ -10,6 +10,11 @@
 	</ul>
 </nav>
 
-<style>
-    
+<style lang='scss'>
+	//https://github.com/sveltejs/language-tools/issues/129
+    nav{
+		ul{
+			display: flex;
+		}
+	}
 </style>
