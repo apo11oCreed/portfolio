@@ -13,6 +13,7 @@
 <style lang='scss'>
 	//https://github.com/sveltejs/language-tools/issues/129
     nav{
+		@apply tw-container tw-mx-auto;
 		ul{
 			display: flex;
 		}
