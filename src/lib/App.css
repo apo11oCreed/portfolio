@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+		@apply fontSize-xs;
+		@screen md {
+			font-size: 62.5%;
+		}
+        body{
+            @apply fontSize-md;
+            h1{
+                @apply color-blue fontSize-lg;
+            }
+        }
+    }
+}
+
+@layer utilities {
+    .color-blue {
+        color: theme(colors.blue.hex);
+    }
+    .color-orange {
+        color: theme(colors.orange.hex);
+    }
+    .fontSize-xs{
+        font-size: theme(fontSize.xs);
+    }
+    .fontSize-md{
+        font-size: theme(fontSize.md);
+    }
+    .fontSize-lg{
+        font-size: theme(fontSize.lg);
+    }
+}
