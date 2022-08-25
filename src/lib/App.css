@@ -10,8 +10,11 @@
 		}
         body{
             @apply fontSize-md;
-            h1{
+            h1,h2{
                 @apply color-blue fontSize-lg;
+            }
+            h2{
+                @apply fontSize-md;
             }
         }
     }

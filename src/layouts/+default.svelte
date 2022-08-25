@@ -1,5 +1,6 @@
 <script>
 	import Nav from '$lib/Nav.svelte';
+	import Footer from '$lib/Footer.svelte';
 	import '$lib/App.css';
 </script>
 
@@ -8,7 +9,7 @@
 	<main>
 		<slot><!-- optional fallback --></slot>
 	</main>
-	
+	<Footer />
 
 
 <style lang="scss">

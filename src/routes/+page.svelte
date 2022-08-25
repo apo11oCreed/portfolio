@@ -1,12 +1,16 @@
 <script>
-	import Layout from '../layouts/+layout.svelte';
+	import Default from '../layouts/+default.svelte';
 	/** @type {import('./$types').PageData} */
 	export let data;
 </script>
 
-<Layout>
+<Default>
+	<h1>{data.heading.h1}</h1>
 	{#each data.sections as section}
-		<h1>{section.slug}</h1>
+		<h2>{section.slug}</h2>
 		<div>{section.title}</div>
 	{/each}
-</Layout>
+</Default>
+<style lang="scss">
+	
+</style>
