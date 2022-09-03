@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu+Mono:wght@700&family=Ubuntu:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,12 +10,15 @@
 			font-size: 62.5%;
 		}
         body{
-            @apply fontSize-md;
+            @apply font-default fontSize-md;
             h1,h2{
-                @apply color-blue fontSize-lg;
+                @apply color-blue fontSize-lg tw-font-bold;
             }
             h2{
                 @apply fontSize-md;
+            }
+            a{
+                @apply tw-underline;
             }
         }
     }
@@ -26,6 +30,15 @@
     }
     .color-orange {
         color: theme(colors.orange.hex);
+    }
+    .font-default {
+        font: theme(font.default);
+    }
+    .font-condensed {
+        font: theme(font.condensed);
+    }
+    .font-mono {
+        font: theme(font.mono);
     }
     .fontSize-xs{
         font-size: theme(fontSize.xs);
