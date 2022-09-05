@@ -1,12 +1,6 @@
 <script>
-	import Default from '../../layouts/+default.svelte';
-	/** @type {import('./$types').PageData} */
-	export let data;
+	import Default from '../../layouts/+layout.svelte';
+	export let h1='Portfolio';
 </script>
 
-<Default>
-	<h1>{data.heading.h1}</h1>
-</Default>
-<style lang="scss">
-	
-</style>
+<Default {h1} />

@@ -13,7 +13,7 @@
 <style lang='scss'>
 	/*https://github.com/sveltejs/language-tools/issues/129*/
 	nav {
-		@apply tw-container tw-mx-auto tw-border;
+		@apply tw-border-b tw-border-black;
 		ul {
 			@apply tw-flex tw-justify-evenly;
 
