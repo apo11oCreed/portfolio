@@ -3,6 +3,14 @@ module.exports = {
   mode: 'jit',
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
+		screens:{
+			xs: 'px',
+			sm: '576px',
+			md: '768px',
+			lg: '992px',
+			xl: '1200px',
+			xxl: '1400px'
+		},
 		extend: {
 			colors: {
 				blue: {
